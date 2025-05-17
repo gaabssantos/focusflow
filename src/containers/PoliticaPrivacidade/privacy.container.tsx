@@ -6,6 +6,8 @@ const PoliticaPrivacidade = () => {
   const [activeSection, setActiveSection] = useState('');
   
   useEffect(() => {
+    window.scrollTo(0, 0);
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {

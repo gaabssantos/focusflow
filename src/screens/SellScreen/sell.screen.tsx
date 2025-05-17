@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Container } from '../../components/ContainerComponent/container.styles';
 import { SellContainer } from './sell.styles';
 import PaymentMethod from '../PaymentMethod/payment-method.screen';
+import { Link } from 'react-router-dom';
 
 const SellScreen = () => {
   const [currentStep, setCurrentStep] = useState(1);
@@ -154,7 +155,7 @@ const SellScreen = () => {
 
                 <div className="form-footer">
                   Ao enviar este formulário, você concorda com nossa{' '}
-                  <a href="#">Política de Privacidade</a>.
+                  <Link to={"/privacidade"}><a href="#">Política de Privacidade</a></Link>.
                 </div>
               </form>
             </>
