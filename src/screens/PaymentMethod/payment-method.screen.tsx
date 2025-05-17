@@ -199,9 +199,9 @@ const PaymentMethod = () => {
                   <div className="step-number">5</div>
                   <div className="step-text">
                     Após o pagamento, deverá enviar o comprovante para:
-                    <a href="mailto:gabriel.oliveira2040@hotmail.com">
+                    <a href="mailto:focusflow449@gmail.com">
                       {' '}
-                      gabriel.oliveira2040@hotmail.com
+                      focusflow449@gmail.com
                     </a>
                   </div>
                 </li>
