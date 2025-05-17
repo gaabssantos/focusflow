@@ -11,7 +11,7 @@ import {
   AlertTriangle, 
   ChevronRight, 
   ChevronUp, 
-  Plus 
+  Plus
 } from 'react-feather';
 import { BackToTop, Container, PreVendaAlert, SectionTitle, TermsContainer, TermsDivider, TermsFooter, TermsHeading, TermsHighlight, TermsHighlightTitle, TermsList, TermsSection, TermsSectionContent, TermsText, TermsToc, TocItem, TocLink, TocList } from "./termos-servicos.styles";
 import { BiCopyright } from "react-icons/bi";
