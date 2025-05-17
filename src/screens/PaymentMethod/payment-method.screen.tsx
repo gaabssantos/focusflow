@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Container } from '../../components/ContainerComponent/container.styles';
 import { PaymentMethodContainer } from './payment-method.styles';
 import qrCode from "../../assets/qr-code.png"
+import { Link } from 'react-router-dom';
 
 const PaymentMethod = () => {
   const [copied, setCopied] = useState(false);
@@ -209,8 +210,8 @@ const PaymentMethod = () => {
             </div>
             <div className="payment-footer">
               Ao finalizar o pagamento, você concorda com nossos{' '}
-              <a href="#">Termos de Serviço</a> e{' '}
-              <a href="#">Política de Privacidade</a>.
+              <Link to={"/termos"}><a href="#">Termos de Serviço</a></Link> e{' '}
+              <Link to={"/privacidade"}><a href="#">Política de Privacidade</a></Link>.
             </div>
           </div>
         </div>
