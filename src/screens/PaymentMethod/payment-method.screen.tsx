@@ -199,11 +199,7 @@ const PaymentMethod = () => {
                 <li className="pix-step">
                   <div className="step-number">5</div>
                   <div className="step-text">
-                    Após o pagamento, deverá enviar o comprovante para:
-                    <a href="mailto:focusflow449@gmail.com">
-                      {' '}
-                      focusflow449@gmail.com
-                    </a>
+                    Após o pagamento, pronto! Você já está garantido na pré-venda!
                   </div>
                 </li>
               </ul>
