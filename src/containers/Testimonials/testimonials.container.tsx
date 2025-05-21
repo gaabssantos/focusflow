@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { AuthorAvatar, AuthorImage, AuthorInfo, AuthorName, AuthorRole, Container, NavButton, NavigationButtons, SectionBackground, SectionTitle, TestimonialAuthor, TestimonialCard, TestimonialQuote, TestimonialRating, TestimonialsContainer, TestimonialsGrid, TestimonialsSection, TestimonialTag, TestimonialTags, ViewMoreButton } from "./testimonials.styles";
+import { AuthorAvatar, AuthorImage, AuthorInfo, AuthorName, AuthorRole, Container, NavButton, NavigationButtons, SectionBackground, SectionTitle, TestimonialAuthor, TestimonialCard, TestimonialQuote, TestimonialRating, TestimonialsContainer, TestimonialsGrid, TestimonialsSection, TestimonialTag, TestimonialTags } from "./testimonials.styles";
 
 type StarRatingProps = {
     rating: number;
