@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react";
 import { AuthorAvatar, AuthorImage, AuthorInfo, AuthorName, AuthorRole, Container, NavButton, NavigationButtons, SectionBackground, SectionTitle, TestimonialAuthor, TestimonialCard, TestimonialQuote, TestimonialRating, TestimonialsContainer, TestimonialsGrid, TestimonialsSection, TestimonialTag, TestimonialTags } from "./testimonials.styles";
 
+import testimonial1 from "../../assets/testimonials/testimonials1.jpg";
+import testimonial2 from "../../assets/testimonials/testimonials2.jpg";
+import testimonial3 from "../../assets/testimonials/testimonials3.jpg";
+
 type StarRatingProps = {
     rating: number;
 }
@@ -49,7 +53,7 @@ const Testimonials = () => {
       quote: "Como empreendedor, gerencio diversos projetos simultaneamente. O FocusFlow me ajuda a organizar tudo com eficiência e nunca perder os prazos importantes.",
       author: "Rafael Mendes",
       role: "CEO da TechStart",
-      avatar: null,
+      avatar: testimonial1,
       initials: "RM",
       rating: 5,
       tags: ["Gestão de Projetos", "Organização"]
@@ -69,7 +73,7 @@ const Testimonials = () => {
       quote: "Finalmente encontrei uma ferramenta que combina simplicidade e poder. Uso diariamente para planejar minhas aulas e pesquisas acadêmicas.",
       author: "Prof. Antônio Pereira",
       role: "Professor Universitário",
-      avatar: null,
+      avatar: testimonial2,
       initials: "AP",
       rating: 5,
       tags: ["Planejamento", "Educação"]
@@ -79,7 +83,7 @@ const Testimonials = () => {
       quote: "Nossa equipe de marketing adotou o FocusFlow há 3 meses e notamos uma melhora significativa na conclusão de tarefas e na qualidade das entregas.",
       author: "Juliana Costa",
       role: "Gerente de Marketing",
-      avatar: null,
+      avatar: testimonial3,
       initials: "JC",
       rating: 5,
       tags: ["Equipes", "Colaboração"]
